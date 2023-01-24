@@ -31,12 +31,6 @@ _____________
 Debug
 ______________ 
 */
-.debug .div-big{
-    background-color: #1e90ff;
-}
-.debug .div-small{
-    background-color: #ffc0cb;
-}
 
 .debug .even-section, .bottom-section{
     background-color: #d3d3d3;
@@ -208,8 +202,23 @@ _____________
 Main
 ______________ 
 */
+
+.titolo-sezione{
+    text-align: start;
+    font-size: 36px;
+    padding-bottom: 39px;
+    color: black;
+    width: 337px;
+}
+
+.paragrafo-sezione{
+    font-weight: bold;
+    line-height: 1,7;
+    color: black;
+    width: 337px;
+}
 .odd-section, .even-section{
-    height: 604px;
+
     display: flex;
     justify-content: center;
 }
@@ -217,22 +226,18 @@ ______________
 .block{
     display: flex;
     height: 500px;
-    width: 1191px;
+    width: 1200px;
     margin: 51px 0;
 }
 
 .div-big{
-    flex-grow: 2;
+    width: 60%;
 
 }
 
 .div-small{
-    flex-grow: 1;
+    width: 40%;
 
-}
-
-.div-big, .div-small, .logo-footer, .button{
-    border: 1px dashed black;
 }
 
 .even{
