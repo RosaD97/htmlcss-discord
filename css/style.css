@@ -217,6 +217,10 @@ ______________
     width: 317px;
 }
 
+.tre{
+    width: 308px;
+}
+
 .odd-section, .even-section{
     display: flex;
     justify-content: center;
