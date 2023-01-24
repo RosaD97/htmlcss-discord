@@ -32,10 +32,6 @@ Debug
 ______________ 
 */
 
-.debug .even-section, .bottom-section{
-    background-color: #d3d3d3;
-}
-
 .debug .blocco-verde{
     background-color: #228b22;
 }
@@ -212,15 +208,22 @@ ______________
 }
 
 .paragrafo-sezione{
-    font-weight: bold;
-    line-height: 1,7;
+    line-height: 1,8;
     color: black;
     width: 337px;
 }
-.odd-section, .even-section{
 
+.due{
+    width: 317px;
+}
+
+.odd-section, .even-section{
     display: flex;
     justify-content: center;
+}
+
+.even-section{
+    background-color: #f6f6f6;
 }
 
 .block{
