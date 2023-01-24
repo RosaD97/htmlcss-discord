@@ -1,0 +1,270 @@
+/* 
+_____________
+Reset
+______________ 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+_____________
+Debug
+______________ 
+*/
+
+.debug .header-top{
+    height: 80px;
+    background-color: #add8e6;
+}
+
+.debug nav{
+    background-color: #daa520;
+}
+
+.debug .header-bottom{
+    background-color: #00008b;
+}
+
+.debug .blocco-pink{
+    background-color: #ee82ee;
+}
+.debug .div-big{
+    background-color: #1e90ff;
+}
+.debug .div-small{
+    background-color: #ffc0cb;
+}
+
+.debug .even-section, .bottom-section{
+    background-color: #d3d3d3;
+}
+
+.debug .blocco-verde{
+    background-color: #228b22;
+}
+
+.debug .footer-top, .footer-bottom{
+    background-color: #23272a;
+}
+
+.debug .columns{
+    background-color: #20b2aa;
+}
+
+.debug div.c1{
+    background-color: #f08080;
+}
+
+.debug .section-footer-bottom{
+    background-color: #7fffd4;
+}
+
+.debug .logo-footer, .button{
+    background-color: #ffb6c1;
+}
+/* 
+_____________
+Fine Debug
+______________ 
+*/
+
+/* 
+_____________
+Header-Top
+______________ 
+*/
+
+.header-top, nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    height: 44px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.logo, .link, .login{
+    border: 1px dashed black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items:  center;
+    padding: 12px 0px;
+}
+
+.link{
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.logo{
+    flex-grow: 1;
+    justify-content: flex-start;
+    padding-left: 12px;
+}
+
+.login{
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+/* 
+_____________
+Fine Header-Top
+______________ 
+*/
+
+/* 
+_____________
+Header-Bottom
+______________ 
+*/
+
+.header-bottom{
+    height: 496px;
+    padding: 51px;
+    border-bottom: 3px solid #add8e6;
+}
+
+.blocco-pink{
+    width: 909px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+/* 
+_____________
+Fine Header-Bottom
+______________ 
+*/
+
+/* 
+_____________
+Main
+______________ 
+*/
+.odd-section, .even-section{
+    height: 604px;
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    height: 500px;
+    width: 1191px;
+    margin: 51px 0;
+}
+
+.div-big{
+    flex-grow: 2;
+
+}
+
+.div-small{
+    flex-grow: 1;
+
+}
+
+.div-big, .div-small, .logo-footer, .button{
+    border: 1px dashed black;
+}
+
+.even{
+    flex-direction: row-reverse;
+}
+
+.bottom-section{
+    display: flex;
+    height: 1000px;
+    justify-content: center ;
+}
+
+.blocco-verde{
+    height: 900px;
+    width: 1200px;
+    margin: 51px 0;
+    border: 1px dashed black;
+}
+
+/* 
+_____________
+Fine Main
+______________ 
+*/
+
+/* 
+_____________
+Footer-top
+______________ 
+*/
+.footer-top{
+    height: 630px;
+    display: flex;
+    justify-content: center;
+}
+
+.columns{
+    display: flex;
+    width: 1200px;
+    height: 576px;
+    margin: 10px 0 40px 0;
+
+}
+
+.column{
+    border: 1px dashed rgb(255, 255, 255);
+    flex-grow: 1;
+}
+
+div.c1{
+    flex-grow: 2;
+    border: 1px dashed black;
+}
+/* 
+_____________
+Fine Footer-top
+______________ 
+*/
+
+/* 
+_____________
+Footer-bottom
+______________ 
+*/
+.footer-bottom{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin: 1px 0 2px 0;
+    padding-top: 30px;
+}
+
+.section-footer-bottom{
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer, .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 66px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* 
+_____________
+Fine Footer-bottom
+______________ 
+*/
