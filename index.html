@@ -8,6 +8,9 @@
 
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug">
 
@@ -98,7 +101,15 @@
 
     <!-- bottom section -->
     <div class="bottom-section">
-        <div class="blocco-verde"></div>
+        <div class="bottom-block">
+            <h2 class="titolo-sezione-bottom">Tecnologia affidabile per tenersi in contatto</h2>
+            <p class="paragrafo-sezione-bottom">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda <br> gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+            <div class="bottom-section-block">
+                <img class="videochiamata-img" src="img/item4-big.svg" alt="videochiamata">
+                <span class="testo-button">Pronto a iniziare la tua avventura?</span>
+            </div> 
+            <button class="button-mac-dow violet">Scarica per Mac</button>
+        </div>
     </div>
     <!-- /bottom section -->
 
@@ -106,34 +117,150 @@
     <!-- /Main -->
 
     <!-- Footer -->
-    <footer class="debug">
-
-        <!-- Footer top -->
-        <div class="footer-top">
-            <div class="columns">
-                <div class="column c1"></div>
-                <div class="column c2"></div>
-                <div class="column c3"></div>
-                <div class="column c4"></div>
-                <div class="column c5"></div>
+        <footer class="debug">
+    
+            <!-- Footer top -->
+            <div class="footer-top">
+                <div class="columns">
+                    <div class="column c1">
+                        <h4 class="titolo-footer">Il tuo posto per parlare</h4>
+                        <div class="lingua">
+                            <img class="bandiera" src="img/ita.png" alt="bandiera">
+                            <div class="scegli-lingua">Italiano<i class="fa-solid fa-chevron-down"></i></i></div>
+                        </div>
+                        <div class="icone">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-square-facebook"></i>                
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="column c2">
+                        <ul>
+                            <li class="titolo">
+                                <b>Prodotto</b>
+                            </li>
+                            <li>
+                                <a href="#">Scarica</a>
+                            </li>
+                            <li>
+                                <a href="#">Perchè Discord</a>
+                            </li>
+                            <li>
+                                <a href="#">Nitro</a>
+                            </li>
+                            <li>
+                                <a href="#">Sicurezza</a>
+                            </li>
+                            <li>
+                                <a href="#">Assistenza</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column c3">
+                        <ul>
+                            <li class="titolo">
+                                <b>Compagnia</b>
+                            </li>
+                            <li>
+                                <a href="#">Chi siamo</a>
+                            </li>
+                            <li>
+                                <a href="#">Lavora con noi</a>
+                            </li>
+                            <li>
+                                <a href="#">Marchio</a>
+                            </li>
+                            <li>
+                                <a href="#">Redazione</a>
+                            </li>
+                            <li>
+                                <a href="#">Negozio</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column c4">
+                        <ul>
+                            <li class="titolo">
+                                <b>Risorse</b>
+                            </li>
+                            <li>
+                                <a href="#">Scarica</a>
+                            </li>
+                            <li>
+                                <a href="#">Perchè Discord</a>
+                            </li>
+                            <li>
+                                <a href="#">Nitro</a>
+                            </li>
+                            <li>
+                                <a href="#">Sicurezza</a>
+                            </li>
+                            <li>
+                                <a href="#">Assistenza</a>
+                            </li>
+                            <li>
+                                <a href="#">Scarica</a>
+                            </li>
+                            <li>
+                                <a href="#">Perchè Discord</a>
+                            </li>
+                            <li>
+                                <a href="#">Nitro</a>
+                            </li>
+                            <li>
+                                <a href="#">Sicurezza</a>
+                            </li>
+                            <li>
+                                <a href="#">Assistenza</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column c5">
+                        <ul>
+                            <li class="titolo">
+                                <b>Norme</b>
+                            </li>
+                            <li>
+                                <a href="#">Scarica</a>
+                            </li>
+                            <li>
+                                <a href="#">Perchè Discord</a>
+                            </li>
+                            <li>
+                                <a href="#">Nitro</a>
+                            </li>
+                            <li>
+                                <a href="#">Sicurezza</a>
+                            </li>
+                            <li>
+                                <a href="#">Assistenza</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- /Footer top -->
-
-        <!-- Footer bottom -->
-        <div class="footer-bottom">
-            <div class="section-footer-bottom">
-                <div class="logo-footer">Logo</div>
-                <div class="button">Bottone</div>
+            <!-- /Footer top -->
+    
+            <!-- Footer bottom -->
+            <div class="footer-bottom">
+                <div class="section-footer-bottom">
+                    <div class="logo-footer">
+                        <img class="logo" src="img/logo.svg" alt="logo footer">
+                    </div>
+                    <div class="button">
+                        <button class="button-rec">Registrati</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- /Footer bottom -->
-
-    </footer>
-
-
-
-    <!--/ Footer -->
+            <!-- /Footer bottom -->
+    
+        </footer>
+    
+    
+    
+        <!--/ Footer -->
+     
     
 </body>
 </html>
